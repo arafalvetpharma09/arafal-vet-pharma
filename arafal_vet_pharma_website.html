@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arafal Vet Pharma — Poultry Medicines</title>
+  <meta name="description" content="Arafal Vet Pharma — Poultry medicines and supplies. Address: Johar Town, Lahore. Phone: +92 319 7813429" />
+  <style>
+    :root{--accent:#0b74de;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:#111;background:#f7fafc}
+    header{background:linear-gradient(90deg,var(--accent),#0366b3);color:white;padding:28px 18px}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .brand{display:flex;gap:16px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:10px;background:white;color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:700}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:rgba(255,255,255,.95)}
+
+    main{padding:24px 18px}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:center}
+    @media(min-width:840px){.hero{grid-template-columns:1fr 420px}}
+    .card{background:white;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(20,20,40,.06)}
+
+    /* products */
+    .products-grid{display:grid;grid-template-columns:repeat(1,1fr);gap:14px}
+    @media(min-width:780px){.products-grid{grid-template-columns:repeat(3,1fr)}}
+    .product{padding:18px;border-radius:10px;border:1px solid #eef3f8;display:flex;flex-direction:column;gap:10px}
+    .product img{width:100%;height:140px;object-fit:cover;border-radius:8px;background:#f0f6fb}
+    .product h3{margin:0;font-size:16px}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:#eef8ff;color:#0356a6;font-weight:600;font-size:13px}
+
+    /* contact */
+    .contact-list{display:flex;flex-direction:column;gap:8px}
+    .contact-row{display:flex;gap:10px;align-items:center}
+    .muted{color:var(--muted)}
+
+    footer{padding:18px;text-align:center;color:var(--muted);font-size:14px}
+
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{background:transparent;border:1px solid #ddd;color:#333}
+
+    /* small helpers */
+    .grid-two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media(min-width:680px){.grid-two{grid-template-columns:2fr 1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container brand">
+      <div class="logo">AV</div>
+      <div>
+        <h1>Arafal Vet Pharma</h1>
+        <p class="lead">Poultry medicines & farm health supplies — Johar Town, Lahore</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h2 style="margin-top:0">Welcome to Arafal Vet Pharma</h2>
+        <p class="muted">We supply veterinary medicines and health products for commercial and backyard poultry farmers. Trusted brands, safe handling, and expert advice.</p>
+
+        <div style="margin-top:12px" class="grid-two">
+          <div>
+            <h3 style="margin:0 0 8px">Products we highlight</h3>
+            <div class="products-grid">
+              <!-- Product 1 -->
+              <article class="product card">
+                <img src="images/oxyjin.jpg" alt="OXYJIN — poultry medicine (placeholder)">
+                <div>
+                  <div class="badge">OXYJIN</div>
+                  <h3>OXYJIN — Powerful antibiotic support</h3>
+                  <p class="muted">Antibacterial formula for respiratory & systemic infections. Follow dosing instructions on label.</p>
+                </div>
+                <div style="margin-top:auto">
+                  <a class="btn btn-primary" href="#contact">Order Now</a>
+                </div>
+              </article>
+
+              <!-- Product 2 -->
+              <article class="product card">
+                <img src="images/arabox.jpg" alt="ARATOX — poultry medicine (placeholder)">
+                <div>
+                  <div class="badge">ARATOX</div>
+                  <h3>ARATOX — Feed additive / detoxifier</h3>
+                  <p class="muted">Supports gut health and toxin binding in feed. Suitable for broilers and layers.</p>
+                </div>
+                <div style="margin-top:auto">
+                  <a class="btn btn-primary" href="#contact">Order Now</a>
+                </div>
+              </article>
+
+              <!-- Product 3 -->
+              <article class="product card">
+                <img src="images/lifeplus.jpg" alt="LIFE PLUS — poultry supplement (placeholder)">
+                <div>
+                  <div class="badge">LIFE PLUS</div>
+                  <h3>LIFE PLUS — Vitamins & electrolytes</h3>
+                  <p class="muted">Boost immunity, hydration and recovery during heat or stress. Easy to mix with drinking water.</p>
+                </div>
+                <div style="margin-top:auto">
+                  <a class="btn btn-primary" href="#contact">Order Now</a>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+          <aside class="card">
+            <h3 style="margin-top:0">Contact & Visit</h3>
+            <div class="contact-list">
+              <div class="contact-row"><strong>Address:</strong><span class="muted"> JOHAR TOWN, LAHORE, PAKISTAN</span></div>
+              <div class="contact-row"><strong>Phone:</strong><a href="tel:+923197813429">+92 319 7813429</a></div>
+              <div class="contact-row"><strong>Email:</strong><a href="mailto:arafalvetpharma@gmail.com">arafalvetpharma@gmail.com</a></div>
+              <div class="contact-row"><strong>Hours:</strong><span class="muted">10:00 AM — 6:00 PM</span></div>
+            </div>
+
+            <div style="margin-top:12px">
+              <a class="btn btn-primary" href="tel:+923197813429">Call Now</a>
+              <a class="btn btn-ghost" href="mailto:arafalvetpharma@gmail.com" style="margin-left:8px">Email</a>
+            </div>
+
+            <hr style="margin:14px 0;border:none;border-top:1px solid #f1f4f8">
+            <h4 style="margin:0 0 8px">Quick order form</h4>
+            <form id="orderForm" onsubmit="handleOrder(event)">
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <input id="name" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid #e6eef6">
+                <input id="phone" placeholder="Phone or WhatsApp" required style="padding:10px;border-radius:8px;border:1px solid #e6eef6">
+                <select id="product" style="padding:10px;border-radius:8px;border:1px solid #e6eef6">
+                  <option>OXYJIN</option>
+                  <option>ARATOX</option>
+                  <option>LIFE PLUS</option>
+                </select>
+                <textarea id="notes" rows="3" placeholder="Delivery city, quantity, notes" style="padding:10px;border-radius:8px;border:1px solid #e6eef6"></textarea>
+                <button type="submit" class="btn btn-primary">Send Order</button>
+              </div>
+            </form>
+
+            <p id="orderMsg" style="display:none;margin-top:8px;color:green">Order prepared. Opening email client...</p>
+
+          </aside>
+        </div>
+
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0">About Arafal Vet Pharma</h3>
+        <p class="muted">Arafal Vet Pharma supplies quality veterinary products and practical treatment advice for poultry keepers. We focus on safety and effective dosing; speak with us before administering antibiotics or injections.</p>
+
+        <h4 style="margin-bottom:6px">Useful links</h4>
+        <ul style="margin-top:0;padding-left:18px">
+          <li><a href="#">Product Safety & Dosing (placeholder)</a></li>
+          <li><a href="#">Delivery & Payment</a></li>
+          <li><a href="#contact">Contact & Orders</a></li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="contact" style="margin-top:20px">
+      <div class="card">
+        <h3 style="margin-top:0">Contact & Visit</h3>
+        <p class="muted">Drop by our shop in Johar Town or call/WhatsApp for bulk orders and price lists.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+          <a class="btn btn-primary" href="tel:+923197813429">Call +92 319 7813429</a>
+          <a class="btn btn-ghost" href="mailto:arafalvetpharma@gmail.com">Email Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Arafal Vet Pharma — Johar Town, Lahore
+    </div>
+  </footer>
+
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // handle quick order by opening user's email client with prefilled content
+    function handleOrder(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value || 'Customer';
+      const phone = document.getElementById('phone').value || '';
+      const product = document.getElementById('product').value;
+      const notes = document.getElementById('notes').value || '';
+      const subject = encodeURIComponent('Order: ' + product + ' — ' + name);
+      const body = encodeURIComponent(`Name: ${name}\nPhone: ${phone}\nProduct: ${product}\nNotes: ${notes}`);
+      const mailto = `mailto:arafalvetpharma@gmail.com?subject=${subject}&body=${body}`;
+      document.getElementById('orderMsg').style.display = 'block';
+      window.location.href = mailto;
+    }
+  </script>
+
+  <!--
+    How to use / edit:
+    1) Replace placeholder images: create a folder named "images" next to this HTML file and add files: oxyjin.jpg, arabox.jpg, lifeplus.jpg. Or change the <img src=> attributes to your image paths.
+    2) To change file name: rename this file to index.html before deploying (GitHub Pages serves index.html by default).
+    3) Deploy to GitHub Pages: create a repo, push this file to main branch, enable Pages in repo settings (use root or /docs). Or upload to any web host.
+    4) If you want a free custom domain (example: yourname.github.io), use GitHub Pages. If you'd like .com/.pk domain, you'll need to register it.
+
+    Need changes? I can:
+      - change colors or layout
+      - add more products, price list, or images
+      - create a multi-page site (catalog, about, contact)
+  -->
+</body>
+</html>
